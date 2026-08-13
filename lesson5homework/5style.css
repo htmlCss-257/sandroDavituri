@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'bpg_glaho';
+    src: url('bpg_glaho_[FONTS.GE]/bpg_glaho.ttf');
+}
+body{ font-family: 'bpg_glaho', sans-serif;}
+header{ text-align:center;
+color: green;}
+img.first.image { width: 300px; height: auto; border: 7px solid rgb(152, 210, 18); }
+img.second-image { width: 300px; height: auto; border: 7px solid rgb(15, 243, 15)}
+.Flexthis { display: flex; justify-content: center; align-items: center;
+flex-direction: row; list-style: none;}
+
+table {border-collapse: collapse; border-style: dashed; width: 50%; border-radius: 50%; border-color: aqua;  margin-top: auto;
+}
+ td {border: 2px solid black;  text-align: center; background-color: rgb(201, 227, 7);
+color: rgb(16, 33, 20); border-style: dashed;}
+th { background-color: rgb(241, 6, 6);}
