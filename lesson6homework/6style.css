@@ -1,0 +1,95 @@
+.top-banner{ width: 960px;
+height: 90px;}
+body{ background-color: rgb(211, 176, 106);}
+.p1{display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+margin-top: 70px;
+text-decoration: underline;
+gap: 160px;
+}
+.pirveli:hover { background-color: rgb(255, 9, 9);
+color: rgb(0, 0, 0);
+cursor: pointer;}
+.meore:hover{ background-color: rgb(255, 9, 9);
+color: rgb(0, 0, 0);
+cursor: pointer;}
+.mesame:hover{ background-color: rgb(255, 9, 9);
+color: rgb(0, 0, 0);
+cursor: pointer;}
+.cocva { 
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0;
+font-family:Arial, Helvetica, sans-serif;
+text-align: center;
+margin-top: 50px;
+font-weight: bold;
+}
+.climb1 { width: 200px;
+height: 150px;
+top: 360px;
+left: 135px;
+gap: 100px;}
+.climb2 { width: 225px;
+height: 150px;
+top: 360px;
+left: 425px;}
+.climb3 { width: 100px;
+height: 150px;
+top: 360px;
+left: 740px;}
+.p2 {display: flex;
+    flex-direction:row;
+    justify-content: center;
+gap: 100px;
+margin-bottom: 100px;}
+.metiinf { font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+width: 845px;
+height: auto;
+top: 585px;
+left: 60px;
+border: 2px solid;
+border-color: rgb(0, 0, 0);
+border-radius: 22px;
+margin: auto;
+padding: 10px;
+
+}
+.show-input {display: flex;
+    width: 100%;
+margin-top: 100px;
+border: 10px solid black;
+border-color: black;
+margin-bottom: 5px;
+}
+.show-input:focus{ color: rgb(0, 0, 0);
+background-color: rgb(255, 11, 15);
+cursor: pointer;}
+.phone{display: flex;
+    width: 100%;
+border: 10px solid black;
+border-color: black;
+margin-bottom: 20%;}
+.phone:focus { color: black;
+background-color: rgb(255, 11, 15);
+cursor: pointer;}
+.table1 { border: 3px solid black;
+border-radius: 15px;
+padding: 8px 12px;
+width: 50%;
+
+margin-top: auto;
+margin: 0 auto;}
+.head1 { color: rgb(252, 255, 255);
+width: 100%;
+background-color: rgb(6, 70, 60);}
+th, td { padding: 20px;
+text-align: center;}
+.data2:hover{ color:rgb(3, 91, 91);
+background-color:(3, 91, 91);
+cursor: pointer;}
