@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body { font-family: "Roboto", sans-serif;
+ background-color:brown;}
+
+#first { color: aliceblue;
+text-shadow: 7px 7px 4px;
+margin-top: 20px;}
+
+h2::first-letter { color: rgb(216, 219, 19);
+font-size: 30px;}
+
+p::first-letter { color:rgb(216, 219, 19);
+text-transform: uppercase;}
+
+#sec{ color: rgb(183, 200, 73);
+padding: 5px;
+margin-top: 25px;
+margin-left: 45px;
+margin-top: 5px;}
+
+.hed { display: inline-block;
+margin-left: 20px;}
+
+.NAvigation { display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -50px;
+gap: 40px;}
+
+.NAvigation a { text-decoration: none;
+color: azure;}
+
+.Navigation :hover { background-color: rgb(237, 106, 29);
+font-size: 20px;
+transition: 2s;
+border: rgb(235, 129, 129) solid;}
+
+
+
+.MAin header{ width: 100%;
+height: 500px;}
+
+.slider{ width: 100%;
+height: 100%;
+position: relative;
+overflow: hidden;}
+
+.photoslide {display: flex;
+     width: 250px;
+height: 250px;
+object-fit: cover;
+margin-top: 55px;
+animation: slideanimation 5s infinite ease-in;}
+
+.photoslide img { width: 80%;
+height: 100%;
+object-fit: cover;}
+
+@keyframes slideanimation {
+0%, 30% { transform:translatex{0};}
+
+33%,60% { transform: translateX(50vw);}
+
+66%, 95% { transform: translateX(50vw);}
+
+100% { transform: translateX(0);}
+}
+
+:root {
+    --text_feri:rgb(9, 18, 20);
+   --texis_zoma:22px; 
+   --textis_fonti:Arial, Helvetica, sans-serif;
+}
+
+#last1 { color: var(--text_feri);
+font-size: var(--texis_zoma);
+font-family: var(--textis_fonti);}
+
+#last2 { color: var(--text_feri);
+font-size: var(--texis_zoma);
+font-family: var(--textis_fonti);}
+
+.lastps { align-items: center;
+display: flex;
+justify-content:center; 
+flex-direction: column;
+gap: 30px;
+margin-top: -90px;
+margin-bottom: 30px;}
+
+
+.lastphotos img {width:250px;
+height:250px;
+object-fit: cover;
+transition: all 1s ease;
+}
+
+.lastphotos{display: flex;
+justify-content: center;
+margin-bottom: 30px;
+gap: 15px
+;}
+
+.lastphotos:hover { cursor: pointer;}
+
+.lastphotos img:first-child {width: 250px;
+opacity: 1;}
+
+.lastphotos img:nth-child(2),
+.lastphotos img:nth-child(3){ width: 0;
+opacity: 0; pointer-events: none;}
+
+.lastphotos:hover img:nth-child(2),
+.lastphotos:hover img:nth-child(3){ width: 250px;
+opacity: 1;}
