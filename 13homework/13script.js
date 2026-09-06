@@ -8,4 +8,4 @@ document.getElementById("firstparagraphs").innerHTML = "changed text";
 
 const newParagraph= document .createElement("p")
 newParagraph. textContent = "This is a new paragraph";
-document.body.appendChild(newParagraph);
+document.body.appendChild(newParagraph); //test
